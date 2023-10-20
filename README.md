@@ -3,5 +3,5 @@
 </a>
 </br>
 <a href="https://github.com/ten-log">
-  <img align="center" src="https://github-readme-stats-theta-gules-17.vercel.app/api/top-langs/?username=ten-log&layout=compact&theme=dark"/>
+  <img align="center" src="https://github-readme-stats-theta-gules-17.vercel.app/api/pin/?username=ten-log&layout=compact&theme=dark" />
 </a>
