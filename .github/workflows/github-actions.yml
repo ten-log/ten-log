@@ -1,0 +1,41 @@
+# 깃허브 액션이름
+name: GitHub Actions For My Profile
+# 깃허브 액션 run할때 내부에 적히는 제목
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+# 언제 실행될지
+on:
+  push:
+    branches:
+      - master
+#   # 하루에 한번 cron 실행
+#   schedule:
+#     - cron: "0 0 * * *"
+
+jobs:
+  #job name
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Setup Node
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Update README
+        run: npm start
+      - name: Commit files
+        run: |
+          git config --local user.email "qlqjs674@naver.com"
+          git config --local user.name "ten-log"
+          git add .
+          git commit -a -m "Fix: update README.md"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
