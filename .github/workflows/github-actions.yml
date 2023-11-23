@@ -7,9 +7,9 @@ on:
   push:
     branches:
       - master
-#   # 하루에 한번 cron 실행
-#   schedule:
-#     - cron: "0 0 * * *"
+  # 하루에 한번 cron 실행
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   #job name
