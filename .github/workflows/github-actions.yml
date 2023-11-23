@@ -1,16 +1,15 @@
-# 깃허브 액션이름
+# workflowの名前
 name: GitHub Actions For My Profile
-# 깃허브 액션 run할때 내부에 적히는 제목
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-# 언제 실행될지
+# どんな時に実行するのか
 on:
   push:
     branches:
       - master
-  # 하루에 한번 cron 실행
+  # 一日1回cronする
   schedule:
     - cron: "0 0 * * *"
 
+#workflow が実行する単位
 jobs:
   #job name
   build:
