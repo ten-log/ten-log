@@ -1,15 +1,4 @@
-# Hi there 👋
-
-## 이런 환경에  익숙해요✍🏼
-
-## 언어
-
-<p>
-  <img alt="" src= "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> 
-  <img alt="" src= "https://img.shields.io/badge/TypeScript-black?logo=typescript&logoColor=blue"/>
-</p>
-
-
+# 👋 Hi there 
 
 <a href="https://github.com/ten-log">
   <img align="center" src="https://github-readme-stats-theta-gules-17.vercel.app/api?username=ten-log&show_icons=true&theme=dark&line_height=20"/>
@@ -21,16 +10,11 @@
 <br />
 <div>
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TS and typescript"/>
-<img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="white jester shoe icon"/> <br/>
-<img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" alt="es lint"/>
-<img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" alt="prettier" />
-<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
+<img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="white jester shoe icon"/> <br/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="java"/>
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="spring"/>
 </div>
 <br />
-
-
-## Contact me
-
 ## 📕 Latest Blog Posts
 
-<a href=https://yeolceo.tistory.com/195>[ Git ] Git을 사용한 코드리뷰 방법</a></br><a href=https://yeolceo.tistory.com/184>[ Ngrok ] Localhost를 외부에서 접속하기위한 Service</a></br><a href=https://yeolceo.tistory.com/183>[ FCM ] Server에서 FCM 요청 보내기</a></br><a href=https://yeolceo.tistory.com/182>[ Edu ] 친절과 성실성</a></br><a href=https://yeolceo.tistory.com/181>[ Resume ] notion 날짜 계산 년, 월, 일로 표현하는 법</a></br>
+1 <a href=https://yeolceo.tistory.com/195>[ Git ] Git을 사용한 코드리뷰 방법</a></br>2 <a href=https://yeolceo.tistory.com/184>[ Ngrok ] Localhost를 외부에서 접속하기위한 Service</a></br>3 <a href=https://yeolceo.tistory.com/183>[ FCM ] Server에서 FCM 요청 보내기</a></br>4 <a href=https://yeolceo.tistory.com/182>[ Edu ] 친절과 성실성</a></br>5 <a href=https://yeolceo.tistory.com/181>[ Resume ] notion 날짜 계산 년, 월, 일로 표현하는 법</a></br>6 <a href=https://yeolceo.tistory.com/180>[ branding ] blog를 꾸미는 이유</a></br>7 <a href=https://yeolceo.tistory.com/179>[ HR ] 채용 흐름에 대한 주관적인 생각</a></br>
