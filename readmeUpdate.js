@@ -30,7 +30,7 @@ I work as a server programmer
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="spring"/>
 </div>
 
-## 📕 Latest Blog Posts
+### 📕 Latest Blog Posts
 `;
 
 // rss-parser 생성
@@ -50,7 +50,7 @@ const parser = new Parser({
     console.log(`${i + 1}번째 게시물`);
     console.log(`추가될 제목: ${title}`);
     console.log(`추가될 링크: ${link}`);
-    text += `${i + 1}. <a href=${link}>${title}</a></br>`;
+    text += `</br>${i + 1}. <a href=${link}>${title}</a>`;
   }
 
   // README.md 파일 작성
