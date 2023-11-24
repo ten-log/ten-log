@@ -2,7 +2,7 @@ import { writeFileSync } from "node:fs";
 import Parser from "rss-parser";
 
 //自分のblogLink
-const blogLink = ` https://yeolceo.tistory.com/rss`;
+const blogLink = `https://yeolceo.tistory.com/rss`;
 
 /**
  * README.MDとなるtext
